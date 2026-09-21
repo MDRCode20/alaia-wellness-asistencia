@@ -1,0 +1,76 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+
+.markLetter {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 56px;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+.subwordmark {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 0.32em;
+  color: var(--color-ink-soft);
+  margin: 10px 0 20px;
+}
+
+.titulo {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--color-ink);
+  margin: 0 0 32px;
+  line-height: 1.4;
+}
+
+.rule {
+  height: 1px;
+  background: var(--color-cream-deep);
+  margin-bottom: 8px;
+}
+
+.opcion {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  font-weight: 600;
+  color: var(--color-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-cream-deep);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.opcion:hover {
+  color: var(--color-gold-deep);
+  border-bottom-color: var(--color-gold);
+}
+
+.opcionSub {
+  display: block;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: var(--color-ink-soft);
+  margin-top: 4px;
+}

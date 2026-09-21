@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&display=swap");
+
+:root {
+  /* Paleta tomada del local: mármol crema, dorado del mobiliario y de la
+     lámpara de cristal, y el rosa empolvado de la lámpara de pie. */
+  --color-cream: #f6f1e8;
+  --color-cream-deep: #efe6d6;
+  --color-white: #fffdf9;
+  --color-gold: #b6905c;
+  --color-gold-deep: #8a6a3e;
+  --color-blush: #e9c9d6;
+  --color-blush-deep: #d9a9bd;
+  --color-ink: #3a332b;
+  --color-ink-soft: #6b6156;
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-ui: "Jost", "Segoe UI", sans-serif;
+
+  --radius-lg: 22px;
+  --radius-sm: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-ui);
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-ui);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold-deep);
+  outline-offset: 3px;
+}

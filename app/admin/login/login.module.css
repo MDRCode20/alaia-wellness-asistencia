@@ -1,0 +1,103 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 320px;
+}
+
+.mark {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.markLetter {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 44px;
+  color: var(--color-ink);
+  line-height: 1;
+}
+
+.subwordmark {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 0.32em;
+  color: var(--color-ink-soft);
+  margin: 10px 0 0;
+}
+
+.label {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 0.28em;
+  color: var(--color-gold-deep);
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+.rule {
+  height: 1px;
+  background: var(--color-cream-deep);
+  margin-bottom: 24px;
+}
+
+.fieldLabel {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  color: var(--color-ink-soft);
+  margin: 0 0 4px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 2px;
+  margin-bottom: 18px;
+  border: none;
+  border-bottom: 1px solid var(--color-cream-deep);
+  background: none;
+  font-family: var(--font-ui);
+  font-size: 15px;
+  color: var(--color-ink);
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: var(--color-gold);
+}
+
+.boton {
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  color: var(--color-ink);
+  background: none;
+  border: none;
+  border-bottom: 2px solid var(--color-gold);
+  cursor: pointer;
+}
+
+.boton:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.error {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--color-ink-soft);
+  margin-top: 18px;
+  text-align: center;
+}

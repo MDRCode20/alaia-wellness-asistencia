@@ -1,0 +1,183 @@
+.page {
+  min-height: 100vh;
+  padding: 40px 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-cream-deep);
+  padding-bottom: 18px;
+  margin-bottom: 24px;
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 24px;
+  color: var(--color-gold-deep);
+  margin: 0;
+}
+
+.volver {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-soft);
+  text-decoration: underline;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: var(--color-ink-soft);
+}
+
+.campo select,
+.campo input {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  padding: 6px 4px;
+  border: none;
+  border-bottom: 1px solid var(--color-cream-deep);
+  background: none;
+  color: var(--color-ink);
+  min-width: 140px;
+}
+
+.botonExportar {
+  font-family: var(--font-ui);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  padding: 8px 14px;
+  border: 1px solid var(--color-gold);
+  border-radius: 999px;
+  background: none;
+  color: var(--color-gold-deep);
+  cursor: pointer;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 13px;
+}
+
+.tabla th {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--color-ink-soft);
+  border-bottom: 1px solid var(--color-cream-deep);
+  padding: 8px 6px;
+}
+
+.tabla td {
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--color-cream-deep);
+  color: var(--color-ink);
+}
+
+.editar {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  color: var(--color-gold-deep);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(58, 51, 43, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.modal h3 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.modal label {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  color: var(--color-ink-soft);
+  margin: 12px 0 4px;
+}
+
+.modal input,
+.modal select,
+.modal textarea {
+  width: 100%;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  padding: 8px 4px;
+  border: none;
+  border-bottom: 1px solid var(--color-cream-deep);
+  background: none;
+  color: var(--color-ink);
+}
+
+.modalAcciones {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.modalAcciones button {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  padding: 8px 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cancelar {
+  color: var(--color-ink-soft);
+}
+
+.guardar {
+  color: var(--color-gold-deep);
+}
